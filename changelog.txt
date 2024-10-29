@@ -1,0 +1,151 @@
+2021/01/22 - version 1.0
+ * First Release
+ * Accept all major debit and credit card types, Visa®, MasterCard®, American Express®
+ * Support WooCommerce Subscriptions  & Accept  recurring payments
+ * Support 1-click checkout for seamless payment experience.
+ * Support Apple Pay and Google Pay
+ * Manage payments, captures, refunds and more directly from your WooCommerce dashboard
+
+2022/03/24 - version 1.0.1
+ * Fix Apple Pay.
+
+2022/06/12 - version 1.0.2
+ * Fix conflict with Plugin CheckoutWC.
+
+2022/09/21 - version 1.0.3
+ * Fix Apple Pay Shipping Error with Locations not covered by your other zones.
+
+2022/10/06 - version 1.0.4
+ * Change Description for All Payment Methods.
+
+2022/10/07 - version 1.0.4
+ * Order Status - Change Pending Payment to On Hold.
+
+2022/10/10 - version 1.0.4
+ * Use a new payment method text.
+
+2022/10/11 - version 1.0.4
+ * Fix Storing expiry month.
+
+2022/10/14 version 1.0.4
+ * Adding a new card processing slower than usual.
+
+2022/10/20 version 1.0.5
+ * Configuration (Enhancement) #1.
+
+2022/11/02 version 1.0.6
+ * Configuration (Enhancement) #1.
+ * Configuration (Enhancement) #2.
+ * Configuration (Enhancement) #3.
+ * Configuration (Enhancement) #4.
+ * Configuration (Enhancement) #5.
+ * Card Payments - Full Page Redirect.
+
+2022/11/24 version 1.0.7
+ * Checkout - Apple Pay & Google Pay (Enhancement).
+ * Fix: Update Contact info Apple Pay with virtual product in Product, Cart and Checkout page.
+
+2022/12/20 version 1.1.2
+ * Fix: Fixed conflict TeraWallet - ApplePay & GooglePay transactionAmount/totalPrice not updated.
+
+2023/02/20 version 1.1.2
+ * Fix: Fixed conflict amount Apple Pay with Coupon code.
+
+2023/02/22 version 1.1.3
+ * Fix: Fixed iFrame Pop-up no transaction outcome.
+
+2023/01/23 version 1.1.4
+ * Fix: Fixed Card Payments REUSE not targetting correct HPP template ID.
+
+2023/03/14 version 1.1.5
+ * Fix: Fixed country code 'GB' for Apple Pay.
+
+2023/03/21 version 1.1.6
+ * Fix: Fixed order received i-Frame option.
+
+2023/03/23 version 1.1.7
+ * Update: Update document link.
+ * Update: Hidden iFrame Redirect opiton.
+ * Update: Remove return_url when payment with i-Frame option.
+ * Fixed: Fixed price format with Google Pay.
+
+2023/03/24 version 1.1.8
+ * Fixed: Fixed merchant_order_id request.
+
+2023/03/28 version 1.1.9
+ * Fixed: Fixed Google Pay with Shipping one option.
+
+2023/04/27 version 1.2.1
+ * Fixed: Fixed Apple Pay with Shipping one option.
+
+2023/05/15 version 1.2.1
+ * Fixed: Fixed Payment General tab not default value.
+
+2023/05/19 version 1.2.1
+ * Fixed: Fixed get Apple Pay merchant session domain.
+ * Fixed: Fix Apple Pay Decline Card Flow
+ * Fixed: Fix Change Apple Pay button position
+
+2023/07/20 Version 1.2.1
+ * Fixed: Add new field - Dynamic Descriptor
+ * Fixed: Change the Flow of Order Status (Processing Issue)
+ * Fixed: Change the flow of VOID Issue
+
+2023/08/17 Version 1.2.1
+ * Fixed: Mapped Merchant_Custom_3 as "Dynamic Descriptor" for Apple Pay
+ * Fixed: Removed Acquired Transaction function from Menu'
+ 
+2023/10/06 Version 1.2.2
+ * Fixed: ApplePay popup does not appear
+ * Fixed: Declare Compatibility with Woocommerce HPOS
+ * Fixed: Order status stuck at Processing
+
+2023/11/02 Version 1.2.3
+ * Fixed: Apply Uppercased CountryCode to ApplePay 
+
+2023/11/27 Version 1.2.4
+ * Fixed: Fix merchant_custom_3 params for ApplePay
+
+2024/01/21 Version 1.2.5
+ * Fixed: E-commerce transaction gets marked as a MOTO transaction
+ * Fixed: Apple Pay journey & error display if TnCs are not accepted
+
+2024/02/06 Version 1.2.6
+ * Fixed: CountryCode Lowercase issue
+ * Fixed: Amount mismatch error in Apple Pay transactions
+ * Fixed: My account issues
+ * Update: Started prioritising billing info manually added by the customer in checkout form
+
+2024/02/27 Version 1.2.7
+ * Fixed: Set priority for ApplePay
+ * Fixed: Empty Apple Pay token issue in case of conflicting Apple Pay and Place Order Button
+
+2024/03/19 Version 1.2.8
+ * Fixed: Order Status for non-lottery type products will be Processing instead of Completed
+ * Fixed: Order notes will be created as private notes not visible to end customer
+ * Fixed: Billing details added by customer in the checkout flow will be prioritised and used over the default details in ApplePay or GooglePay.
+
+2024/04/16 Version 1.2.9
+ * Fixed: Set priority for Contact form on Google Pay
+ * Fixed: Adding Google Pay MerchantID
+ * Fixed: Update Billing & Shipping in Cart/Product Page on Google Pay & Apple Pay
+ * Fixed: Miss Payment Method detail in order confirmation email with Google Pay & Apple Pay
+
+2024/04/22 Version 1.3.0
+ * Fixed: Fixed merchant info for Google Pay
+
+2024/07/02 Version 1.3.1
+* Fixed: Remove MOTO
+* Fixed: Fixed merchant info for Google Pay
+* Fixed: Fixed Apple Pay validation
+
+2024/07/31 Version 1.3.2
+* Fixed: Merchant session Apple Pay
+
+2024/08/09 Version 1.3.3
+* Fixed: Fixed rebill request subscription
+* Fixed: Remove post type transaction and create transaction
+
+2024/10/10 Version 1.3.4
+* Fixed: Apple Pay Cancel checkout 
+* Update: Query API - Order Status
