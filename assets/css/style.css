@@ -1,0 +1,45 @@
+.wc-acquired-product-checkout-container ul {
+  margin-left: 0px;
+}
+
+.wc-acquired-apple-container apple-pay-button {
+  width: 100%;
+}
+
+.acquired-show {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: #000;
+  opacity: 0.6;
+}
+
+#acquired-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+iframe {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #acquired-form {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #acquired-form {
+    width: 90%;
+  }
+}

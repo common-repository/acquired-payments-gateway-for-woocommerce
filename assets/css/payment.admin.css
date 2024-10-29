@@ -1,0 +1,60 @@
+table.wc_gateways tr[ data-gateway_id=apple],
+table.wc_gateways tr[ data-gateway_id=google],
+table.wc_gateways tr[ data-gateway_id=acquired] {
+    display: none;
+}
+
+.form-table input[type="checkbox"] {
+    position: relative;
+    height: 20px;
+    width: 36px;
+    border: 2px solid #999;
+    background-color: #999;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 10em;
+    -o-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -webkit-border-radius: 10em;
+    transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-table input:checked[type="checkbox"] {
+    background-color: #935687;
+}
+
+.form-table input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    top: 0;
+    right: 16px;
+    background-color: #ffffff;
+    transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    cursor: pointer;
+    margin: 0;
+}
+
+.form-table input:checked[type="checkbox"] {
+    border-color: #935687;
+    background-color: #935687;
+}
+
+.form-table input:checked[type="checkbox"]::before {
+    right: 0;
+}
